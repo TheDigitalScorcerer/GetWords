@@ -1,6 +1,6 @@
 # Words from http://www.allscrabblewords.com
 
-def GetAllWords(letters, outputfile="", separator="\n"):
+def getWordsByLetterNum(letters, outputfile="", separator="\n"):
 	import os
 	import urllib.request
 	letters = str(letters)
